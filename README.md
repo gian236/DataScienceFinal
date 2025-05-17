@@ -16,12 +16,37 @@ Este tipo de predicción puede apoyar programas preventivos de salud pública al
 
 ## **Modelo Final**
 
-- Se aplicó cálculo de **Information Value (IV)** para evaluar la capacidad predictiva de variables continuas:
-  - `BMI`: IV = 0.0501  
-  - `MentHlth`: IV = 0.0251  
-  - `PhysHlth`: IV = 0.2686  
-- Se seleccionaron las variables con **IV > 0.02**:  
-  `['BMI', 'MentHlth', 'PhysHlth']`
+### Target: `HeartDiseaseorAttack`
+
+- `0` → No ha tenido enfermedad cardíaca  
+- `1` → Sí ha tenido enfermedad cardíaca (infarto, angina, ataque)
+
+---
+
+### Features utilizadas (21 variables)
+
+- `HighBP` – Alta presión arterial  
+- `HighChol` – Colesterol alto  
+- `CholCheck` – Chequeo de colesterol reciente  
+- `BMI` – Índice de masa corporal  
+- `Smoker` – Fuma regularmente  
+- `Stroke` – Ha tenido un derrame  
+- `Diabetes` – Diagnóstico de diabetes  
+- `PhysActivity` – Actividad física en el último mes  
+- `Fruits` – Consume frutas regularmente  
+- `Veggies` – Consume vegetales regularmente  
+- `HvyAlcoholConsump` – Consumo excesivo de alcohol  
+- `AnyHealthcare` – Tiene acceso a servicios de salud  
+- `NoDocbcCost` – No pudo ver a un doctor por costo  
+- `GenHlth` – Salud general autoevaluada  
+- `MentHlth` – Días con salud mental deficiente  
+- `PhysHlth` – Días con salud física deficiente  
+- `DiffWalk` – Dificultad para caminar  
+- `Sex` – Sexo (0 = mujer, 1 = hombre)  
+- `Age` – Rango de edad  
+- `Education` – Nivel educativo  
+- `Income` – Nivel de ingresos
+
 
   ###  Métricas de Evaluación – Modelo Final 
 

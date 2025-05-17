@@ -1,4 +1,4 @@
-# **DataScienceFinal**
+# **Data Science Final**
 
 ## **Problema a Resolver**
 ### El objetivo de este proyecto es construir un modelo de **clasificación binaria** que prediga si una persona ha sufrido alguna **enfermedad cardíaca o ataque al corazón**, basándonos en indicadores de salud, estilo de vida y características socioeconómicas.  
@@ -8,7 +8,7 @@ Este tipo de predicción puede apoyar programas preventivos de salud pública al
 
 - **Nombre**: Heart Disease Health Indicators (BRFSS 2015)
 - **Fuente**: [CDC - Behavioral Risk Factor Surveillance System (BRFSS)](https://www.cdc.gov/brfss/)
-- **Versión procesada**: [Kaggle Dataset - Alex Teboul](https://www.kaggle.com/datasets/alexteboul/heart-disease-health-indicators-dataset)
+- **Versión procesada (la que se utilizó)**: [Kaggle Dataset - Alex Teboul](https://www.kaggle.com/datasets/alexteboul/heart-disease-health-indicators-dataset)
 - **Observaciones**: 253,680 registros
 - **Variables**: 22 columnas totales (21 features + 1 target)
 - **Target**: HeartDiseaseorAttack
